@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+﻿###Pagina para la presentación de perfil profesional
 
-You can use the [editor on GitHub](https://github.com/OscarJipiz/PerfilProfesional.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+***
 
-### Markdown
+###Créditos del "TEMPLATE"
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Strata by HTML5 UP
+html5up.net | @oscarjipiz
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+A simple, minimalist template that actually began life as an unused redesign of my
+personal site. Includes a (configurable) parallax background effect, Poptrox-powered
+lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
 
-- Bulleted
-- List
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-1. Numbered
-2. List
+(* = Not included)
 
-**Bold** and _Italic_ and `Code` text
+S: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Credits:
 
-### Jekyll Themes
+	Demo Images:
+		Unsplash (unsplash.com)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OscarJipiz/PerfilProfesional.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	Other:
+		jQuery (jquery.com)
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		CSS3 Pie (css3pie.com)
+		background-size polyfill (github.com/louisremi)
+		Respond.js (j.mp/respondjs)
+		Skel (skel.io)
