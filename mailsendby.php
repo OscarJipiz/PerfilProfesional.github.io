@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Confirmacion de envio formulario</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="assets/css/css.css">
 </head>
 <body>
 <?php
@@ -53,7 +53,7 @@ echo "
 <form>
 <p>Muchas gracias <br>
 O lo que tu quieras poner los que sea!<br>
-Solo realiza el cambiio en este texto!<br>
+Solo realiza el cambio en este texto!<br>
 <br>
 Saludos el equipo de ..lo que seas..
 </p>
