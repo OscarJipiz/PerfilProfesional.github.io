@@ -193,83 +193,45 @@
 
                             <!-- Three -->
                             <<section id="fourth">
-                                <h2><strong>Contactame</strong></h2>
-                                <div class="row">
-                                    <div class="8u 12u$(small)">
-                                        <form name="frmContacto" method="post" action="mailsendby.php">
-                                            <table width="500px">
-                                                <tr>
-                                                    <td>
-                                                        <label for="first_name">Nombre: *</label>
-                                                    </td>
-                                                    <td>
-                                                        <input type="text" name="first_name" maxlength="50" size="25">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td valign="top" ">
-                                                        <label for="last_name">Apellido: *</label>
-                                                    </td>
-                                                    <td>
-                                                        <input type="text" name="last_name" maxlength="50" size="25">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <label for="email">Dirección de E-mail: *</label>
-                                                    </td>
-                                                    <td>
-                                                        <input type="text" name="email" maxlength="80" size="35">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <label for="telephone">Número de teléfono:</label>
-                                                    </td>
-                                                    <td>
-                                                        <input type="text" name="telephone" maxlength="25" size="15">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <label for="comments">Comentarios: *</label>
-                                                    </td>
-                                                    <td>
-<textarea name="comments" maxlength="500" cols="30" rows="5"></textarea>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2" style="text-align:right">
-                                                        <input type="submit" value="Enviar">
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </form>
-                                        </formform>
+                                 <h1>Formulario de contacto</h1>
+                                 <form name='formulario' id='formulario' method='post' action='mailsendby.php' target='_self' enctype="multipart/form-data">
 
-                                        <!--<ul class="actions">
-                                            <li><input type="submit" value="Send Message" /></li>
-                                        </ul>-->
-                                    </div>
-                                    <div class="4u$ 12u$(small)">
-                                        <ul class="labeled-icons">
-                                            <li>
-                                                <h3 class="icon fa-home"><span class="label">Address</span></h3>
-                                                1234 Somewhere Rd.<br />
-                                                Nashville, TN 00000<br />
-                                                United States
-                                            </li>
-                                            <li>
-                                                <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-                                                000-000-0000
-                                            </li>
-                                            <li>
-                                                <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-                                                <a href="mailto:www.gmail.com">ofjipizc@gmail.com</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                     <br>NOMBRE: <input type='text' name='Nombre' id='Nombre'>
+
+                                     <br>E-MAIL:<input type='text' name='email' id='email' pattern="^[a-zA-Z0-9.!#$%'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+                                                       required value="ejemplo@hotmail.com"
+                                                       onclick="if(this.value=='ejemplo@hotmail.com') this.value=''" onblur="if(this.value=='') this.value='ejemplo@hotmail.com'">
+
+                                     <br>TELEFONO:<input type='text' name='telefono' id='telefono' value="Con Codigo de Area"
+                                                         onclick="if(this.value=='Con Codigo de Area') this.value=''" onblur="if(this.value=='') this.value='Con Codigo de Area'">
+                                     <br>ASUNTO: <input type='text' name='asunto' id='asunto'>
+                                     <br>
+                                     MENSAJE:<br>
+<textarea name="mensaje" cols="35" rows="10" id="mensaje"></textarea>
+                                     <br>
+                                     Si desea puede adjuntar un archivo:<input type='file' name='archivo1' id='archivo1'>
+                                     <br>
+
+                                     <input id=boton-enviar type='submit' value='Enviar'>
+                                     <div class="4u$ 12u$(small)">
+                                         <ul class="labeled-icons">
+                                             <li>
+                                                 <h3 class="icon fa-home"><span class="label">Address</span></h3>
+                                                 1234 Somewhere Rd.<br />
+                                                 Nashville, TN 00000<br />
+                                                 United States
+                                             </li>
+                                             <li>
+                                                 <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+                                                 000-000-0000
+                                             </li>
+                                             <li>
+                                                 <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+                                                 <a href="mailto:www.gmail.com">ofjipizc@gmail.com</a>
+                                             </li>
+                                         </ul>
+                                     </div>
+</div>
                             </section>
 </div> -->
 
