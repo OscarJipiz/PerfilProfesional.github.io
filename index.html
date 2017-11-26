@@ -194,45 +194,24 @@
                             <!-- Three -->
                             <<section id="fourth">
                                  <h1>Formulario de contacto</h1>
-                                 <form name='formulario' id='formulario' method='post' action='mailsendby.php' target='_self' enctype="multipart/form-data">
-
-                                     <br>NOMBRE: <input type='text' name='Nombre' id='Nombre'>
-
-                                     <br>E-MAIL:<input type='text' name='email' id='email' pattern="^[a-zA-Z0-9.!#$%'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
-                                                       required value="ejemplo@hotmail.com"
-                                                       onclick="if(this.value=='ejemplo@hotmail.com') this.value=''" onblur="if(this.value=='') this.value='ejemplo@hotmail.com'">
-
-                                     <br>TELEFONO:<input type='text' name='telefono' id='telefono' value="Con Codigo de Area"
-                                                         onclick="if(this.value=='Con Codigo de Area') this.value=''" onblur="if(this.value=='') this.value='Con Codigo de Area'">
-                                     <br>ASUNTO: <input type='text' name='asunto' id='asunto'>
-                                     <br>
-                                     MENSAJE:<br>
-<textarea name="mensaje" cols="35" rows="10" id="mensaje"></textarea>
-                                     <br>
-                                     Si desea puede adjuntar un archivo:<input type='file' name='archivo1' id='archivo1'>
-                                     <br>
-
-                                     <input id=boton-enviar type='submit' value='Enviar'>
-                                    
-                                     <div class="4u$ 12u$(small)">
-                                         <ul class="labeled-icons">
-                                             <!--<li>
-                                                 <h3 class="icon fa-home"><span class="label">Address</span></h3>
-                                                 1234 Somewhere Rd.<br />
-                                                 Nashville, TN 00000<br />
-                                                 United States
-                                             </li>
-                                             <li>
-                                                 <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-                                                 000-000-0000
-                                             </li>
-                                             <li>
-                                                 <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-                                                 <a href="mailto:www.gmail.com">ofjipizc@gmail.com</a>
-                                             </li>-->
-                                         </ul>
+                                 <div class="col-sm-6">
+                                     <div id="cnt_form">
+                                         <form id="contact-form" class="contact" name="contact-form" method="post" action="#">
+                                             <div class="form-group">
+                                                 <input type="text" name="nombre" class="form-control name-field" required="required" placeholder="your Name"
+                                             </div>
+                                             <div class="form-group">
+                                                 <input type="email" name="email" clas="form-control mail-field" required="required" placeholder="Your Email"
+                                             </div>
+                                             <div class="form-group">
+                                                 <textarea name="mensaje" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                             </div>
+                                             <div class="form-group">
+                                                 <button type="submit" class="btn btn-primary">Send</button>
+                                             </div>
+                                         </form>
                                      </div>
-</div>
+                                 </div>
                             </section>
 </div> -->
 
