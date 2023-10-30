@@ -896,41 +896,44 @@
 
 /* Header */
 
-	#header {
-		background-attachment:	scroll,								fixed;
-		background-color: darkblue;
-		background-position:	top left,							top left;
-		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								auto 100%;
-		color: _palette(accent2, fg);
-		height: 100%;
-		left: 0;
-		padding: ($size-header-pad * 2) $size-header-pad 0 0;
-		position: fixed;
-		text-align: right;
-		top: 0;
-		width: $size-header-width;
+#header {
+	background-attachment: scroll, fixed;
+	background-color: darkblue;
+	background-position: top left, top left;
+	background-repeat: repeat, no-repeat;
+	background-size: auto, auto 100%;
+	color: _palette(accent2, fg);
+	height: 100%;
+	left: 0;
+	padding: ($size-header-pad * 2) $size-header-pad 0 0;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: $size-header-width;
 
-		strong, b {
-			color: _palette(accent2, fg-bold);
-		}
-
-		h2, h3, h4, h5, h6 {
-			color: _palette(accent2, fg-bold);
-		}
-
-		h1 {
-			color: _palette(accent2, fg);
-			font-size: 1.35em;
-			line-height: 1.75em;
-			margin: 0;
-		}
-
-		.image.avatar {
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 6.25em;
-		}
+	strong, b {
+		color: _palette(accent2, fg-bold);
 	}
+
+	h2, h3, h4, h5, h6 {
+		color: _palette(accent2, fg-italic);
+		font-size: 1.0em;
+		line-height: 1.75em;
+		margin: 0;
+	}
+
+	h1 {
+		color: _palette(accent2, fg);
+		font-size: 1.35em;
+		line-height: 1.75em;
+		margin: 0;
+	}
+
+	.image.avatar {
+		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		width: 6.25em;
+	}
+}
 
 /* Footer */
 

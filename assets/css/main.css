@@ -1566,7 +1566,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #7d7d7d;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1590,7 +1590,7 @@
 		}
 
 	strong, b {
-		color: #787878;
+		color: #3F3F3F;
 		font-weight: 400;
 	}
 
@@ -2317,34 +2317,34 @@
 
 /* Button */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: transparent;
-		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
-		cursor: pointer;
-		display: inline-block;
-		font-weight: 400;
-		height: 3.15em;
-		height: calc(2.75em + 6px);
-		line-height: 2.75em;
-		min-width: 10em;
-		padding: 0 1.5em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
-	}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	background-color: #755843;
+	border-radius: 0.35em;
+	border: solid 3px #efefef;
+	color: #fffefc !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	height: 3.15em;
+	height: calc(2.75em + 6px);
+	line-height: 2.75em;
+	min-width: 10em;
+	padding: 0 1.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+}
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -2464,7 +2464,7 @@
 
 #header {
     background-color: black;
-    background-image: url("../../images/ImgF03.jpg"), url("../../images/ImgF03.jpg");
+    background-image: url("../../images/ImgF05.jpg"), url("../../images/ImgF05.jpg");
     background-attachment: scroll, fixed;
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
@@ -2480,15 +2480,18 @@
 }
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #6e5959;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
-		}
+	#header h2, #header h3, #header h4, #header h5, #header h6 {
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 1.15em;
+		line-height: 1.75em;
+		margin: 0;
+	}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: 4f472f;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2515,11 +2518,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: #755843;
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			color: #755843;
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
@@ -2554,7 +2557,7 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #755843;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
